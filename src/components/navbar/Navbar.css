@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+nav {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: black 1px 0 10px;
+    font-family: 'Roboto', sans-serif;
+    z-index: 9999;
+
+}
+
+.AllItems {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navItems {
+    padding: 35px;
+    margin-top: 15px;
+}
+
+.navItems:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    top: 1px;
+}

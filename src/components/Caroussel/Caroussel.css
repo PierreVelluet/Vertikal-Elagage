@@ -1,0 +1,34 @@
+.Carousel {
+    height: 500px;
+    width: 100%;
+    margin: 0px auto 0px auto;
+}
+
+.Carousel div {
+    height: 500px;
+}
+.Carousel div img {
+    width: auto;
+    height: auto;
+}
+
+.Image1{
+    background-image: url('https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/08/03091106/Trees-1024x682.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Image2{
+    background-image: url('https://img.huffingtonpost.com/asset/5da723c9210000570fad2f5c.jpeg?ops=scalefit_630_noupscale');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Image3{
+    background-image: url('https://costarica-decouverte.com/wp-content/uploads/2018/09/arbre-guanacaste-costa-rica-decouverte.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
