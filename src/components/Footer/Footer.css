@@ -1,0 +1,84 @@
+.Footer {
+    background-color: #559857;
+    width: 100%;
+    height: 375px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid white;
+}
+
+.Social,
+.OpenedHour,
+.Contact {
+    width: 25%;
+    padding: 30px;
+}
+
+table{
+    margin: 0 auto;
+}
+
+table tr td {
+    padding: 25px;
+}
+
+.Footer h4 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.Contact p{
+    padding: 20px;
+}
+
+.Media {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Facebook {
+    
+    width: 50px;
+    height: 50px;
+    background-image: url('http://assets.stickpng.com/thumbs/584ac2d03ac3a570f94a666d.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.Twitter {
+    width: 50px;
+    height: 50px;
+    background-image: url('https://p7.hiclipart.com/preview/431/377/161/5bbc4eb96e85d.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border-radius: 50%;
+}
+
+.Instagram {
+    width: 50px;
+    height: 50px;
+    background-image: url('https://toppng.com/uploads/preview/instagram-color-icon-instagram-social-media-png-instagram-icon-11562851673w81euu4rop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .Footer{
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 1200px;
+    }
+    .Social,
+    .OpenedHour,
+    .Contact {
+        width: 100%;
+        padding: 30px;
+}
+}

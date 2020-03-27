@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Navbar.css';
 import Logo from './Logo';
+import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
 
@@ -49,14 +50,14 @@ class Navbar extends Component {
 
 
         return (
-            <nav style={this.state.style}>
+            <nav className='Navbar' style={this.state.style}>
                 <Logo/>  
                 <div className='AllItems'>
-                    <div className='navItems'>Accueil</div>
-                    <div className='navItems'>Certification & diplômes</div>
-                    <div className='navItems'>Qui sommes nous?</div>
-                    <div className='navItems'>Gallerie</div>
-                    <div className='navItems'>Contact</div>
+                    <div className='navItems'><Link to='/'>Accueil</Link></div>
+                    <div className='navItems'><Link to='/aboutUs'>Qui sommes-nous?</Link></div>
+                    <div className='navItems'><Link to='/'>Certification & diplômes</Link></div>
+                    <div className='navItems'><Link to='/gallery'>Galerie</Link></div>
+                    <div className='navItems'><Link to='/'>Contact</Link></div>
                 </div>
             </nav>
         )

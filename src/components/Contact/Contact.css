@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.Form {
+    width: 30%;
+    margin: 0 auto;
+}
+
+h4 {
+    padding-top: 50px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .Form{
+        width: 80%
+    }
+}

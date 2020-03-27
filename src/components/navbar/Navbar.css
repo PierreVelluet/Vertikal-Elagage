@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-nav {
+.Navbar {
     display: flex;
     width: 100%;
     margin: 0 auto;
@@ -15,6 +15,9 @@ nav {
     z-index: 9999;
 
 }
+.Navbar a{
+    color: white;
+}
 
 .AllItems {
     display: flex;
@@ -23,7 +26,7 @@ nav {
 
 .navItems {
     padding: 35px;
-    margin-top: 15px;
+    margin-top: 8px;
 }
 
 .navItems:hover {
