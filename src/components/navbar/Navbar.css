@@ -5,18 +5,25 @@
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     position: fixed;
     color: white;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 400;
     text-shadow: black 1px 0 10px;
     font-family: 'Roboto', sans-serif;
     z-index: 9999;
 
 }
+
 .Navbar a{
     color: white;
+}
+.Navbar a:hover{
+    color: grey;
+}
+.Navbar a:active{
+    color: darkgrey;
 }
 
 .AllItems {
@@ -25,12 +32,10 @@
 }
 
 .navItems {
-    padding: 35px;
-    margin-top: 8px;
+    padding: 28px;
 }
 
 .navItems:hover {
     cursor: pointer;
     text-decoration: underline;
-    top: 1px;
 }

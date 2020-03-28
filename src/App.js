@@ -8,6 +8,8 @@ import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
 import { BrowserRouter } from 'react-router-dom'
 import { Route } from 'react-router-dom'
 import Contact from './components/Contact/Contact';
+import Cards from './components/Cards/Cards';
+import Video from './components/Video /Video';
 
 
 
@@ -17,6 +19,8 @@ function App() {
       <div className="App">
         <Navbar/>
         <PresentationImage/>
+        <Route path='/' exact component={Cards}/>
+        <Route path='/' exact component={Video}/>
         <Route path='/aboutUs' exact component={AboutUs}/>
         {/* <Route path='/gallery' exact component={DemoCarousel}/> */}
         <Contact />
