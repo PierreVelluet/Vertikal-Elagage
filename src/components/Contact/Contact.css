@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 .Form {
-    width: 30%;
-    margin: 0 auto;
+    margin: 50px auto;
+    width: 40%;
+}
+
+.Input {
+    width: 700px;
+    margin-top: 25px;
 }
 
 h4 {
