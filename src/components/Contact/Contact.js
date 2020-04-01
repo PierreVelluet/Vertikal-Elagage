@@ -15,6 +15,8 @@ function Contact (){
     console.log('button clicked')
   }
  
+  console.log(inputName)
+
    return(
     <div>
         <h4>N'hésitez pas à nous contacter pour un devis gratuit ou tout autres questions !</h4>
@@ -24,7 +26,7 @@ function Contact (){
         className='Input mb-3'
         onChange={event => {
                 const newName = event.target.value;
-                setInputName({newName});
+                setInputName(newName);
               }}
         id="outlined-basic"
         label="Nom"
@@ -36,7 +38,7 @@ function Contact (){
         className='Input mb-3'
         onChange={event => {
                 const newPhoneNumber = event.target.value;
-                setInputPhoneNumber({newPhoneNumber});
+                setInputPhoneNumber(newPhoneNumber);
               }}
         id="outlined-basic"
         label="Téléphone"
@@ -48,7 +50,7 @@ function Contact (){
         className='Input mb-3'
         onChange={event => {
                 const newEmail = event.target.value;
-                setInputEmail({newEmail});
+                setInputEmail(newEmail);
               }}
         id="outlined-basic"
         label="Email"
@@ -60,7 +62,7 @@ function Contact (){
           className='Input mb-3'
           onChange={event => {
                 const newMessage = event.target.value;
-                setInputMessage({newMessage});
+                setInputMessage(newMessage);
               }}
           id="filled-multiline-static"
           label="Votre message"
