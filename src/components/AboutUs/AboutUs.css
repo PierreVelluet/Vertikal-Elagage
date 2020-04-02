@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
 
-.Container1,
-.Container2,
-.Container3{
+.Container_entreprise,
+.Container_lucas,
+.Container_vision{
     display: flex;
 }
 
@@ -15,9 +15,9 @@
     
 }
 
-.Container1 h4,
-.Container2 h4,
-.Container3 h4 {
+.Container_entreprise h4,
+.Container_lucas h4,
+.Container_vision h4 {
     text-align: center;
     font-size: 35px;
 }
@@ -46,9 +46,9 @@
 
 @media screen and (max-width: 1200px) {
 
-    .Container1,
-    .Container2,
-    .Container3{
+    .Container_entreprise,
+    .Container_lucas,
+    .Container_vision{
         display: flex;
         flex-direction: column;
     }

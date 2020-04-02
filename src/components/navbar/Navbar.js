@@ -53,10 +53,10 @@ class Navbar extends Component {
             <nav className='Navbar' style={this.state.style}>
                 <Logo/>  
                 <div className='AllItems'>
-                    <div className='navItems'><Link to='/'>Accueil</Link></div>
+                    <div className='navItems'><Link to='/home'>Accueil</Link></div>
                     <div className='navItems'><Link to='/aboutUs'>Qui sommes-nous?</Link></div>
                     <div className='navItems'><Link to='/'>Certification & diplômes</Link></div>
-                    <div className='navItems'><Link to='/gallery'>Galerie</Link></div>
+                    <div className='navItems'><Link to='/galery'>Galerie</Link></div>
                     <div className='navItems'><Link to='/'>Contact</Link></div>
                 </div>
             </nav>

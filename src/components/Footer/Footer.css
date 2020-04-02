@@ -28,11 +28,11 @@ table tr td {
 }
 
 .Contact p{
-    padding: 20px;
+    padding: 15px;
 }
 
 .Media {
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-around;
 }

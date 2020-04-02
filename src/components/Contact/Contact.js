@@ -5,17 +5,13 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 
 function Contact (){
-  const [inputName, setInputName] = useState('');
-  const [inputPhoneNumber, setInputPhoneNumber] = useState('');
-  const [inputEmail, setInputEmail] = useState('');
-  const [inputMessage, setInputMessage] = useState('');
+
+  const [formContact, setFormContact] = useState({name: '', number: '', email: '', message: ''})
 
 
   const handleSubmit = (event)=>{
-    console.log('button clicked')
+    console.log(formContact.email, formContact.message, formContact.name, formContact.number)
   }
- 
-  console.log(inputName)
 
    return(
     <div>
@@ -26,52 +22,72 @@ function Contact (){
         className='Input mb-3'
         onChange={event => {
                 const newName = event.target.value;
-                setInputName(newName);
+                setFormContact(prevInputState => ({
+                  name: newName,
+                  number: prevInputState.number,
+                  email: prevInputState.email,
+                  message: prevInputState.message,
+                }));
               }}
         id="outlined-basic"
         label="Nom"
         required variant="outlined"
-        value={inputName}
+        value={formContact.name}
       />
 
       <TextField
         className='Input mb-3'
         onChange={event => {
-                const newPhoneNumber = event.target.value;
-                setInputPhoneNumber(newPhoneNumber);
+                const newNumber = event.target.value;
+                setFormContact(prevInputState => ({
+                  name: prevInputState.name,
+                  number: newNumber,
+                  email: prevInputState.email,
+                  message: prevInputState.message,
+                }));
               }}
         id="outlined-basic"
         label="Téléphone"
         required variant="outlined"
-        value={inputPhoneNumber}
+        value={formContact.number}
           
       />
       <TextField
         className='Input mb-3'
         onChange={event => {
                 const newEmail = event.target.value;
-                setInputEmail(newEmail);
+                setFormContact(prevInputState => ({
+                  name: prevInputState.name,
+                  number: prevInputState.number,
+                  email: newEmail,
+                  message: prevInputState.message,
+                }));
               }}
         id="outlined-basic"
         label="Email"
         required variant="outlined"
-        value={inputEmail}
+        value={formContact.mail}
           
       />
       <TextField
           className='Input mb-3'
           onChange={event => {
                 const newMessage = event.target.value;
-                setInputMessage(newMessage);
+                setFormContact(prevInputState => ({
+                  name: prevInputState.name,
+                  number: prevInputState.number,
+                  email: prevInputState.email,
+                  message: newMessage,
+                }));
               }}
           id="filled-multiline-static"
           label="Votre message"
           multiline
           rows="6"
           variant="outlined"
-          value={inputMessage}
+          value={formContact.message}
         />
-        <Button onClick={() => {}} variant="contained" color="primary">Envoyer</Button>
+        <Button onClick={handleSubmit} variant="contained" color="primary">Envoyer</Button>
     </form>
 
         </div>

@@ -7,7 +7,7 @@ function Footer () {
             <div className='Social'>
                 <h4>Social</h4>
                 <p>Suivez nous sur les réseaux sociaux pour prendre connaissance de nos projets et chantiers sur l'île !</p>
-                <p>Vous pourrez y voir nos dernières réalisations en matière d'ammènagement paysager, avec des photos comparatives avant/après</p>
+                <p>Vous pourrez y voir nos dernières réalisations, avec des photos comparatives !</p>
                 <div className='Media'>
                     <div className='Facebook'></div>
                     <div className='Twitter'></div>
