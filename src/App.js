@@ -11,6 +11,7 @@ import Cards from './components/Home/Cards/Cards';
 import Video from './components/Home/Video /Video';
 import Galery from './components/Gallery/Galery';
 import InShort from './components/Home/InShort/InShort';
+import GoldenBook from './components/GoldenBook/GoldenBook';
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
         <Route path='/home' exact component={Cards}/>
         <Route path='/home' exact component={InShort}/>
         <Route path='/home' exact component={Video}/>
+        <Route path='/home' exact component={GoldenBook}/>
         <Route path='/aboutUs' exact component={AboutUs}/>
         <Route path='/galery' exact component={Galery}/>
         <Contact />

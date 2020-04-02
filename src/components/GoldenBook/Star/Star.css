@@ -1,0 +1,10 @@
+.StarContainer {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 5px;
+}
+
+.Star{
+    width:100%;
+    height:100%;
+}

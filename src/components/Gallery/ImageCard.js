@@ -70,11 +70,6 @@ const realisations = [
   
 const Cards = () => {
 
-const showModal= () => {
-    console.log('passed')
-   return   
-}
-
     return(
         <div className={'Gallery'} >
         {realisations.map((element, index) => {

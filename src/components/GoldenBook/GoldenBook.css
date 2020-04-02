@@ -1,0 +1,26 @@
+.CommentBox {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.Comment {
+    width: 300px;
+    height: 200px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.Text {
+
+}
+
+.Name{
+    float: right;
+    color: #559857;
+    font-weight: 800;
+}
+
+.StarBox {
+    display: flex;
+}
