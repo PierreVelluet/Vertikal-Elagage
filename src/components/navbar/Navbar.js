@@ -1,67 +1,39 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import Logo from './Logo';
 import { Link } from 'react-router-dom';
 
-class Navbar extends Component {
+const Navbar = () => {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-          style: {
-              backgroundColor: null,
-              borderBottom: null,
-          },
-        };
-        this.handleScroll = this.handleScroll.bind(this);
-      }
-      
-    
+    const [style, setStyle] = useState({backgroundColor: null, borderBottom: null});
+
+    useEffect(()=>{
+        window.addEventListener('scroll', handleScroll);
+    }, []);
+
+    const handleScroll = () => {
+
+            setStyle({backgroundColor: '#559857', borderBottom: '1px solid white'})
 
 
-    componentDidMount() {
-        window.addEventListener('scroll', this.handleScroll);
-    };
-
-    handleScroll(){
-        this.setState(prevState => ({
-            style: {                   // object that we want to update
-                ...prevState.style,    // keep all other key-value pairs
-                backgroundColor: '#559857',      // update the value of specific key
-                borderBottom: '1px solid white'
-            }
-        }))
         if(window.pageYOffset === 0) {
-            this.setState(prevState => ({
-                style: {                   // object that we want to update
-                    ...prevState.style,    // keep all other key-value pairs
-                    backgroundColor: null,     // update the value of specific key
-                    borderBottom: null,
-                }
-            }))
+            setStyle({backgroundColor: null, borderBottom: null})
         };
     };
-    
-    
-
-    render() {
-
-        
-
 
         return (
-            <nav className='Navbar' style={this.state.style}>
+            <nav className='Navbar' style={style}>
                 <Logo/>  
                 <div className='AllItems'>
                     <div className='navItems'><Link to='/home'>Accueil</Link></div>
                     <div className='navItems'><Link to='/aboutUs'>Qui sommes-nous?</Link></div>
-                    <div className='navItems'><Link to='/'>Certification & diplômes</Link></div>
+                    <div className='navItems'><Link to='/'>Certifications</Link></div>
                     <div className='navItems'><Link to='/galery'>Galerie</Link></div>
                     <div className='navItems'><Link to='/'>Contact</Link></div>
                 </div>
             </nav>
         )
-    }
+    
     
 }
 

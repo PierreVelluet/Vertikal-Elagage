@@ -4,12 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 
-function Contact (){
+const Contact = () => {
 
   const [formContact, setFormContact] = useState({name: '', number: '', email: '', message: ''})
 
 
-  const handleSubmit = (event)=>{
+  const handleSubmit = (event) => {
     console.log(formContact.email, formContact.message, formContact.name, formContact.number)
   }
 

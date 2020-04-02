@@ -3,8 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import './Carousel.css';
  
-class DemoCarousel extends Component {
-    render() {
+const DemoCarousel = () => {
         return (
             <Carousel
             showThumbs={false}
@@ -25,7 +24,6 @@ class DemoCarousel extends Component {
                 </div>
             </Carousel>
         );
-    }
 };
 
 export default DemoCarousel;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutUs.css'
 
-function AboutUs() {
+const AboutUs = () => {
 
     return (
         <React.Fragment>

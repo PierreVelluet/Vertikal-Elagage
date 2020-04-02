@@ -1,7 +1,7 @@
 import React from 'react';
 import './PresentationImage.css'
 
-function PresentationImage () {
+const PresentationImage = () => {
     return (
         <div className='Image'>
             <div className='Details'>

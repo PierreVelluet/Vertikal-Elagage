@@ -68,7 +68,7 @@ const realisations = [
     
 ]
   
-function Cards() {
+const Cards = () => {
 
 const showModal= () => {
     console.log('passed')

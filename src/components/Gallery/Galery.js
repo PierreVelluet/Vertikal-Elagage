@@ -4,7 +4,7 @@ import Carousel from '../Carousel/Carousel'
 import './Galery.css'
 
 
-function Galery() {
+const Galery = () => {
 
     return (
         <div>
