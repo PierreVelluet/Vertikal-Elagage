@@ -1,0 +1,14 @@
+.Input {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.CommentTitle {
+    text-align: center;
+}
+
+.BtnClose {
+    width: 25%;
+    margin: 30px auto 0px auto;
+}
+

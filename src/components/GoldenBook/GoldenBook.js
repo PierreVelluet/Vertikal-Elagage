@@ -1,48 +1,35 @@
-import React, {useState} from 'react';
-import './GoldenBook.css'
+import React, {useState, useEffect} from 'react';
+import './GoldenBook.css';
 import Star from './Star/Star';
+import axios from 'axios';
+import Button from '@material-ui/core/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Modal from '@material-ui/core/Modal';
+
 
 const GoldenBook = () => {
 
-    const [comments, setComments] = useState([
-        {
-            name: 'Helene L',
-            text: 'super travail de professionnel. A recommander. Merci',
-            stars: [1, 1, 1, 1, 1]
-        },
-        {
-            name: 'François L',
-            text: 'Un vrai travail de Pro...Vite fait bien fait en toute sécurité...Taillé, coupé, nettoyé, évacué ...En plus 2 gars très sympa...Je recommande à 100%...',
-            stars: [1, 1, 1, 1, 1]
-        },
-        {
-            name: 'Alain S',
-            text: 'Du super boulot fait dans mon jardin . Un pro qui connait bien son taff.',
-            stars: [1, 1, 1, 1, 1]
-        }
-    ])
+    const [comments, setComments] = useState([])
 
-    const addComment = () => {
-        setComments([
-            ...comments,
-            {
-                
-            }
-        ])
-    }
-
+    useEffect(()=>{
+        axios.get('http://localhost:3002/api/comments').then(result => {
+        setComments(result.data)
+        })
+    }, []);
 
     return (
+        
         <div className='CommentBox'>
-            {comments.map(element => {
-            return  <div className='Comment'>
+            {comments.map((element, index) => {
+            return  <div key={index} className='Comment'>
                         <div className='StarBox'>
-                            {element.stars.map(element => <Star />)}
+                            {[...Array(element.stars)].map((e, i) => <Star key={i}/>)}
                         </div>
-                        <p className='Text'>"{element.text}"</p>
+                        <p className='Text'>"{element.message}"</p>
                         <p className='Name'>{element.name}</p>
                     </div>
             })}
+            
         </div>
     )
 }

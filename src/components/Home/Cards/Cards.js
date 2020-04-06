@@ -9,7 +9,7 @@ const Cards = () => {
     return(
         <div>
             <div className='Deck'>
-            <h3>Découvrez nos activités sur l'île</h3>
+            <h3 id='section1'>Découvrez nos activités sur l'île</h3>
                 <CardDeck>
                     <Card className='CardTemplate'>
                         <Card.Img variant="top" src="https://www.actuailes.fr/kcfinder/upload/images/Itw95-2.JPG" />
