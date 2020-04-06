@@ -13,6 +13,7 @@ import Galery from './components/Gallery/Galery';
 import InShort from './components/Home/InShort/InShort';
 import GoldenBook from './components/GoldenBook/GoldenBook';
 import Modal from './components/Modal/Modal';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="App">
+        <ScrollToTop />
         <Navbar/>
         <PresentationImage/>
         <Route path='/home' exact component={Cards}/>
@@ -31,7 +33,7 @@ const App = () => {
         <Route path='/home' exact component={GoldenBook}/>
         <Route path='/home' exact component={Modal}/>
         <Route path='/aboutUs' exact component={AboutUs}/>
-        <Route path='/galery' exact component={Galery}/>
+        <Route path='/gallery' exact component={Galery}/>
         <Contact />
         <Footer/>
         <ScrollUpButton/>

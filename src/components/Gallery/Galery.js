@@ -8,7 +8,7 @@ const Galery = () => {
 
     return (
         <div>
-            <h3 id='section1' className={'Title'}>Nos réalisations</h3>
+            <h3 className={'Title'}>Nos réalisations</h3>
             <Carousel />
             <ImageCard />
         </div>

@@ -5,7 +5,7 @@ const AboutUs = () => {
 
     return (
         <React.Fragment>
-        <h3 id='section1' className='Title'>Qui sommes nous ?</h3>
+        <h3 className='Title'>Qui sommes nous ?</h3>
         <div className='Container_entreprise'>
             <div className='Entreprise'>
                 <h4>L'entreprise</h4>
