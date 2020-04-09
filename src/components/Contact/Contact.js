@@ -48,6 +48,8 @@ const Contact = () => {
               }}
         id="outlined-basic"
         label="Téléphone"
+        inputmode="numeric"
+        pattern="[0-9]*"
         required variant="outlined"
         value={formContact.number}
           

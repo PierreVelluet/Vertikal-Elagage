@@ -1,0 +1,38 @@
+.Paysagisme {
+    width: 60%;
+    display: block;
+    margin-left: 10%;
+    padding: 25px;
+    font-size: 25px;
+}
+
+.Title {
+    font-size: 50px;
+    font-weight: 600;
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+    font-family: 'Gotu', sans-serif;
+    margin-top: 50px;
+}
+.ImageWrapper {
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.DivImage1,
+.DivImage2,
+.DivImage3 {
+    width: 450px;
+    height: 350px;
+    margin: 10px;
+}
+
+.Image1,
+.Image2,
+.Image3 {
+    height: 100%;
+    width: 100%;
+
+}

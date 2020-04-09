@@ -44,11 +44,14 @@ export default function SimpleModal() {
   }
 
   const sendComment = () => {
-    console.log(message)
-    axios.post('http://localhost:3002/api/comments/add', message)
-    .then(response => {})
-    // setOpen(false)
-    setMessageSent(true)
+
+    if (message.comment !== '' && message.name !== '') {
+      axios.post('http://localhost:3002/api/comments/add', message)
+      .then(response => {})
+      // setOpen(false)
+      setMessageSent(true)
+    }
+    
   }
 
   const body1 = (

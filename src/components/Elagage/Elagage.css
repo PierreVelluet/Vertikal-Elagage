@@ -1,0 +1,40 @@
+.Elagage {
+    width: 60%;
+    display: block;
+    margin-left: 10%;
+    padding: 25px;
+    font-size: 25px;
+}
+
+.ImageWrapper {
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.ImageBefore1 {
+    width: 450px;
+    height: 350px;
+
+}
+
+.ImageAfter1 {
+    width: 450px;
+    height: 350px;
+}
+
+.Image1 {
+    height: 100%;
+    width: 100%;
+}
+
+
+.Image2 {
+    height: 100%;
+    width: 100%;
+}
+
+.ImageBefore1 p,
+.ImageAfter1 p {
+text-align: center;
+}

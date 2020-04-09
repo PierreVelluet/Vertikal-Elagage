@@ -14,6 +14,9 @@ import InShort from './components/Home/InShort/InShort';
 import GoldenBook from './components/GoldenBook/GoldenBook';
 import Modal from './components/Modal/Modal';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import Elagage from './components/Elagage/Elagage';
+import Abattage from './components/Abattage/Abattage';
+import Paysagisme from './components/Paysagisme/Paysagisme';
 
 
 
@@ -32,6 +35,9 @@ const App = () => {
         <Route path='/home' exact component={Video}/>
         <Route path='/home' exact component={GoldenBook}/>
         <Route path='/home' exact component={Modal}/>
+        <Route path='/abattage' exact component={Abattage}/>
+        <Route path='/elagage' exact component={Elagage}/>
+        <Route path='/paysagisme' exact component={Paysagisme}/>
         <Route path='/aboutUs' exact component={AboutUs}/>
         <Route path='/gallery' exact component={Galery}/>
         <Contact />

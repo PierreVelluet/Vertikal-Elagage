@@ -1,0 +1,52 @@
+.Abattage {
+    width: 60%;
+    display: block;
+    margin-left: 10%;
+    padding: 25px;
+    font-size: 25px;;
+}
+
+.ImageWrapper2 {
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.ImageAbattage1 {
+    width: 450px;
+    height: 350px;
+
+}
+
+.ImageAbattage2 {
+    width: 450px;
+    height: 350px;
+}
+
+.ImageAbattage3 {
+    width: 450px;
+    height: 350px;
+}
+
+.ImageAbattage4 {
+    width: 450px;
+    height: 350px;
+}
+
+.Image1 {
+    height: 100%;
+    width: 100%;
+}
+
+
+.Image2 {
+    height: 100%;
+    width: 100%;
+}
+
+.ImageAbattage1 p,
+.ImageAbattage2 p,
+.ImageAbattage3 p,
+.ImageAbattage4 p{
+text-align: center;
+}

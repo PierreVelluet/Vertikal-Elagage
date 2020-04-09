@@ -28,8 +28,10 @@ const Navbar = () => {
                 <div className='AllItems'>
                     <div className='navItems'><Link smooth to='/home'>Accueil</Link></div>
                     <div className='navItems'><Link smooth to='/aboutUs'>Qui sommes-nous?</Link></div>
+                    <div className='navItems'><Link smooth to='/elagage'>Elagage</Link></div>
+                    <div className='navItems'><Link smooth to='/abattage'>Abattage</Link></div>
+                    <div className='navItems'><Link smooth to='/paysagisme'>Paysagisme</Link></div>
                     <div className='navItems'><Link smooth to='/gallery'>Galerie</Link></div>
-                    <div className='navItems'><Link smooth to='/'>Certifications</Link></div>
                     <div className='navItems'><Link smooth to='/'>Contact</Link></div>
                 </div>
             </nav>
