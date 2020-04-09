@@ -17,6 +17,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Elagage from './components/Elagage/Elagage';
 import Abattage from './components/Abattage/Abattage';
 import Paysagisme from './components/Paysagisme/Paysagisme';
+import ContactUs from './components/ContactUs/ContactUs';
 
 
 
@@ -35,12 +36,18 @@ const App = () => {
         <Route path='/home' exact component={Video}/>
         <Route path='/home' exact component={GoldenBook}/>
         <Route path='/home' exact component={Modal}/>
-        <Route path='/abattage' exact component={Abattage}/>
-        <Route path='/elagage' exact component={Elagage}/>
-        <Route path='/paysagisme' exact component={Paysagisme}/>
+        <Route path='/home' exact component={Contact}/>
         <Route path='/aboutUs' exact component={AboutUs}/>
+        <Route path='/aboutUs' exact component={Contact}/>
+        <Route path='/abattage' exact component={Abattage}/>
+        <Route path='/abattage' exact component={Contact}/>
+        <Route path='/elagage' exact component={Elagage}/>
+        <Route path='/elagage' exact component={Contact}/>
+        <Route path='/paysagisme' exact component={Paysagisme}/>
+        <Route path='/paysagisme' exact component={Contact}/>
         <Route path='/gallery' exact component={Galery}/>
-        <Contact />
+        <Route path='/gallery' exact component={Contact}/>
+        <Route path='/contact' exact component={ContactUs}/>
         <Footer/>
         <ScrollUpButton/>
       </div>

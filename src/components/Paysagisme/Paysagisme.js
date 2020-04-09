@@ -7,8 +7,8 @@ const Paysagisme = () => {
             <h3 className={styles.Title}>Architecture du paysage</h3>
             <div className={styles.Paysagisme}>
             <p>
-                L’architecture du paysage ou paysage — et non « paysagisme » constituant un abus de langage — consiste en l’art de la compréhension et du design de paysages dans leur immense diversité. L'architecture du paysage inclut notamment la conception d'espaces paysagers tels que l'aménagement de l'espace public, de parcs et d'espaces de récréation et le design urbain. Elle inclut également des interventions en faveur de la restauration environnementale, la planification de territoires aux différentes échelles et la préservation de paysages historiques et identitaires.
-                Le praticien de l’architecture de paysage est appelé architecte paysagiste, paysagiste concepteur ou simplement paysagiste selon les pays.
+                L’<strong>architecture du paysage</strong> ou paysage — et non « <strong>paysagisme</strong> » constituant un abus de langage — consiste en l’art de la compréhension et du design de paysages dans leur immense diversité. L'architecture du paysage inclut notamment la conception d'espaces paysagers tels que l'aménagement de l'espace public, de parcs et d'espaces de récréation et le design urbain. Elle inclut également des interventions en faveur de la <strong>restauration environnementale</strong>, la planification de territoires aux différentes échelles et la <strong>préservation de paysages</strong> historiques et identitaires.
+                Le praticien de l’architecture de paysage est appelé <strong>architecte paysagiste</strong>, paysagiste concepteur ou simplement paysagiste selon les pays.
             </p>
             <p>Les différentes <strong>missions du paysagiste:</strong></p>
                 <ul>
@@ -44,7 +44,7 @@ const Paysagisme = () => {
                     <p>exemples de projet</p>
                 </div>
                 <div className={styles.DivImage3}>
-                    <img className={styles.Image3} src='https://lh3.googleusercontent.com/proxy/qUR00N_ZIUmqpGmfU3uycwivPjED1O8lvkTu8eaog1xPa2df5Ly_k3CSYe57Rr30Lhce2cNwgZ2KeMxCPZYLlNBBpR2k683GrzkA897GTKfFkU5oZfsAt4V9uX9tGTaKwgVG4qs' />
+                    <img className={styles.Image3} src='https://designmag.fr/wp-content/uploads/2015/03/jardin-paysager.jpg' />
                     <p>exemples de projet</p>
                 </div>
             </div>

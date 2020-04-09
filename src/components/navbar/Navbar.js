@@ -32,7 +32,7 @@ const Navbar = () => {
                     <div className='navItems'><Link smooth to='/abattage'>Abattage</Link></div>
                     <div className='navItems'><Link smooth to='/paysagisme'>Paysagisme</Link></div>
                     <div className='navItems'><Link smooth to='/gallery'>Galerie</Link></div>
-                    <div className='navItems'><Link smooth to='/'>Contact</Link></div>
+                    <div className='navItems'><Link smooth to='/contact'>Contact</Link></div>
                 </div>
             </nav>
         )
