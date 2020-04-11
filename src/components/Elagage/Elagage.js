@@ -32,6 +32,7 @@ const Elagage = () => {
                     <p>après</p>
                 </div>
             </div>
+            <hr/>
         </React.Fragment>
     )
 }

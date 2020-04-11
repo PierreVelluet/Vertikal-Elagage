@@ -1,9 +1,9 @@
 import React from 'react';
 import './Logo.css'
 
-const Logo = () => {
+const Logo = (props) => {
     return (
-        <div className='Logo'>
+        <div style={{height: props.height, width: props.width}} className='Logo'>
 
         </div>
     )

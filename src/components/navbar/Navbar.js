@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import Logo from './Logo';
-// import { Link } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
+import { bubble as Menu } from 'react-burger-menu'
 
 const Navbar = () => {
 
+    const [sideMenuOpen, setSideMenuOpen] = useState(false)
     const [style, setStyle] = useState({backgroundColor: null, borderBottom: null});
 
     useEffect(()=>{
@@ -22,9 +23,22 @@ const Navbar = () => {
         };
     };
 
+    const closeMenu = () => {
+        setSideMenuOpen(!sideMenuOpen)
+    }
+
         return (
             <nav className='Navbar' style={style}>
-                <Logo/>  
+                <Logo height={'75px'} width={'75px'}/>
+                <Menu isOpen={sideMenuOpen} width={ '250px' } right className='BurgerMenu'>
+                    <div className='navItemsBurger'><Link onClick={closeMenu} smooth to='/home'>Accueil</Link></div>
+                    <div className='navItemsBurger'><Link onClick={closeMenu} smooth to='/aboutUs'>Qui sommes-nous?</Link></div>
+                    <div className='navItemsBurger'><Link onClick={closeMenu} smooth to='/elagage'>Elagage</Link></div>
+                    <div className='navItemsBurger'><Link onClick={closeMenu} smooth to='/abattage'>Abattage</Link></div>
+                    <div className='navItemsBurger'><Link onClick={closeMenu} smooth to='/paysagisme'>Paysagisme</Link></div>
+                    <div className='navItemsBurger'><Link onClick={closeMenu} smooth to='/gallery'>Galerie</Link></div>
+                    <div className='navItemsBurger'><Link onClick={closeMenu} smooth to='/contact'>Contact</Link></div>
+                </Menu>
                 <div className='AllItems'>
                     <div className='navItems'><Link smooth to='/home'>Accueil</Link></div>
                     <div className='navItems'><Link smooth to='/aboutUs'>Qui sommes-nous?</Link></div>

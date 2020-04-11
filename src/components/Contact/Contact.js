@@ -16,7 +16,6 @@ const Contact = () => {
    return(
     <div>
         <h4>N'hésitez pas à nous contacter pour un devis gratuit ou tout autres questions !</h4>
-        <h4>Nous vous recontacterons dans les meilleurs délais !</h4>
     <form className='Form' noValidate autoComplete="off">
       <TextField
         className='Input mb-3'

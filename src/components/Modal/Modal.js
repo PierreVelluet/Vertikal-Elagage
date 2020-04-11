@@ -16,6 +16,12 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
   },
+  Body1: {
+    width: '500px',
+    height: '450px',
+    display: 'block',
+    margin: '250px auto',  
+  }
 }));
 
 export default function SimpleModal() {
@@ -48,14 +54,14 @@ export default function SimpleModal() {
     if (message.comment !== '' && message.name !== '') {
       axios.post('http://localhost:3002/api/comments/add', message)
       .then(response => {})
-      // setOpen(false)
       setMessageSent(true)
     }
     
   }
+  
 
   const body1 = (
-    <div style={{width: '500px', height: '450px', display: 'block', margin: '250px auto 0 auto'}} className={classes.paper}>
+    <div  className={[classes.paper, classes.Body1].join(' ')}>
       <h2 className='CommentTitle' id="simple-modal-title">Laissez nous votre avis</h2>
       <div style={{width: '71%', margin: '15px auto'}}>
       <StarRatings
@@ -124,6 +130,7 @@ export default function SimpleModal() {
       >
         {messageSent ? body2: body1}
       </Modal>
+      <hr/>
     </div>
   );
 }

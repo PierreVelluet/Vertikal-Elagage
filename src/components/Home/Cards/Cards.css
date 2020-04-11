@@ -36,3 +36,12 @@
     font-weight: 600;
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 992px) {
+    .CardDeck {
+        flex-direction: column;
+    }
+    .Deck {
+        width: 100%;
+    }
+}

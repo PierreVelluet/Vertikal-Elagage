@@ -10,7 +10,7 @@ const Cards = () => {
         <div>
             <div className='Deck'>
             <h3>Découvrez nos activités sur l'île</h3>
-                <CardDeck>
+                <CardDeck className='CardDeck'>
                     <Card className='CardTemplate'>
                         <Card.Img variant="top" src="https://www.actuailes.fr/kcfinder/upload/images/Itw95-2.JPG" />
                         <Card.Body>

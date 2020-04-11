@@ -48,6 +48,7 @@ const Paysagisme = () => {
                     <p>exemples de projet</p>
                 </div>
             </div>
+            <hr/>
         </React.Fragment>
     )
 }

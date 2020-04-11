@@ -33,6 +33,7 @@ const Abattage = () => {
                         <p>étape4</p>
                     </div>
                 </div>
+                <hr/>
         </React.Fragment>
     )
 }

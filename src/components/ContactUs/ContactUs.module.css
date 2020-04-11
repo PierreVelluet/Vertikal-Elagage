@@ -9,11 +9,17 @@
 }
 
 .Contact {
-    padding: 25px;
+    padding: 50px;
+    font-size: 25px;
+    width: 25%;
     
 }
 
 .Container {
     display: flex;
     justify-content: center;
+}
+
+.LogoContainer {
+    display: flex;
 }

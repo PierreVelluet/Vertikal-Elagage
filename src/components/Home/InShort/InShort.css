@@ -41,3 +41,15 @@ body {
 .ImageInShort {
     width: 40%;
 }
+
+@media screen and (max-width: 992px) {
+   .InShort {
+       flex-direction: column;
+   }
+   .SomeText {
+       width:100%;
+   }
+   .ImageInShort {
+       width: 100%;
+   }
+  }
