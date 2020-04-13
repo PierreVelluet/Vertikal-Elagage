@@ -18,6 +18,7 @@ import Elagage from './components/Elagage/Elagage';
 import Abattage from './components/Abattage/Abattage';
 import Paysagisme from './components/Paysagisme/Paysagisme';
 import ContactUs from './components/ContactUs/ContactUs';
+import { Redirect} from 'react-router-dom';
 
 
 
@@ -28,6 +29,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="App">
+        <Redirect exact from="/" to="/home" />
         <ScrollToTop />
         <Navbar/>
         <PresentationImage/>

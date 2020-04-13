@@ -4,7 +4,7 @@ import './Star.css'
 const Star = () => {
     return (
         <div className='StarContainer'>
-            <img className='Star' src={require("./Star.png")} />
+            <img className='Star' alt='star' src={require("./Star.png")} />
         </div>
     )
 }

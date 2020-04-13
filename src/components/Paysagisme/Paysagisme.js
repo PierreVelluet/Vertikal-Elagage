@@ -36,15 +36,15 @@ const Paysagisme = () => {
             </div>
             <div className={styles.ImageWrapper}>
                 <div className={styles.DivImage1}>
-                    <img className={styles.Image1} src='https://www.andryves.com/wp-content/uploads/2019/04/avantages-amenagement-paysager.jpg' />
+                    <img className={styles.Image1} alt='' src='https://www.andryves.com/wp-content/uploads/2019/04/avantages-amenagement-paysager.jpg' />
                     <p>exemples de projet</p>
                 </div>
                 <div className={styles.DivImage2}>
-                    <img className={styles.Image2} src='https://i.pinimg.com/originals/62/36/ff/6236ff8c6b37f57ea4f71bcd7dadbf93.jpg' />
+                    <img className={styles.Image2} alt='' src='https://i.pinimg.com/originals/62/36/ff/6236ff8c6b37f57ea4f71bcd7dadbf93.jpg' />
                     <p>exemples de projet</p>
                 </div>
                 <div className={styles.DivImage3}>
-                    <img className={styles.Image3} src='https://designmag.fr/wp-content/uploads/2015/03/jardin-paysager.jpg' />
+                    <img className={styles.Image3} alt='' src='https://designmag.fr/wp-content/uploads/2015/03/jardin-paysager.jpg' />
                     <p>exemples de projet</p>
                 </div>
             </div>

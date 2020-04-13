@@ -24,11 +24,11 @@ const Elagage = () => {
             </div>
             <div className='ImageWrapper'>
                 <div className='ImageBefore1'>
-                    <img className='Image1' src='https://services.meteored.com/img/article/les-arbres-un-role-crucial-pour-le-climat-192881-2.jpg' />
+                    <img className='Image1' alt='' src='https://services.meteored.com/img/article/les-arbres-un-role-crucial-pour-le-climat-192881-2.jpg' />
                     <p>avant</p>
                 </div>
                 <div className='ImageAfter1'>
-                    <img className='Image2' src='https://geo.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fgeo.2F2019.2F07.2F01.2F54d37ecb-ad2b-4686-9ed1-a8b4357a98f9.2Ejpeg/1120x630/background-color/ffffff/quality/90/expo-nous-les-arbres-a-la-fondation-cartier-un-autre-regard-sur-une-richesse-menacee.jpg' />
+                    <img className='Image2' alt='' src='https://geo.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fgeo.2F2019.2F07.2F01.2F54d37ecb-ad2b-4686-9ed1-a8b4357a98f9.2Ejpeg/1120x630/background-color/ffffff/quality/90/expo-nous-les-arbres-a-la-fondation-cartier-un-autre-regard-sur-une-richesse-menacee.jpg' />
                     <p>après</p>
                 </div>
             </div>

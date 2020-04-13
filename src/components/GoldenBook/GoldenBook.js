@@ -2,9 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './GoldenBook.css';
 import Star from './Star/Star';
 import axios from 'axios';
-import Button from '@material-ui/core/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Modal from '@material-ui/core/Modal';
 
 
 const GoldenBook = () => {
