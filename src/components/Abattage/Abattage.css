@@ -50,3 +50,24 @@
 .ImageAbattage4 p{
 text-align: center;
 }
+
+
+@media screen and (max-width: 1200px) {
+    .Abattage {
+        width: 100%;
+        margin-left: 0%;
+        padding: 10px;
+    }
+    .ImageWrapper2 {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .ImageAbattage1,
+    .ImageAbattage2,
+    .ImageAbattage3,
+    .ImageAbattage4 {
+        width: 100%;
+        margin-top: 25px;
+    }
+}

@@ -36,3 +36,22 @@
     width: 100%;
 
 }
+
+@media screen and (max-width: 1200px) {
+    .Paysagisme {
+        width: 100%;
+        margin-left: 0%;
+        padding: 10px;
+    }
+    .ImageWrapper {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .DivImage1,
+    .DivImage2,
+    .DivImage3 {
+        width: 100%;
+        margin-top: 25px;
+    }
+}

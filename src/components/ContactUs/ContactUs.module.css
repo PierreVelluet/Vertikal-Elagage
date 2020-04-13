@@ -23,3 +23,13 @@
 .LogoContainer {
     display: flex;
 }
+
+@media screen and (max-width: 1200px) {
+    .Container {
+        flex-direction: column;
+    }
+    .Contact {
+        width: 100%;
+        padding: 10px;
+    }
+}

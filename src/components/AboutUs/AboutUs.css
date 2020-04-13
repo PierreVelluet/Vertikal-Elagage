@@ -57,6 +57,7 @@
     .Vision,
     .Lucas {
         width: 100%;
+        padding: 5px;
     }
 
     .Photo1,
@@ -69,6 +70,9 @@
     .Photo2{
         order: 2;
     }
+    .Container_entreprise {
+        margin-top: -100px;
+    }
 }
 
 .Title {
@@ -80,3 +84,4 @@
     font-family: 'Gotu', sans-serif;
     margin-top: 50px;
 }
+

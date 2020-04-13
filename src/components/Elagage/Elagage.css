@@ -38,3 +38,21 @@
 .ImageAfter1 p {
 text-align: center;
 }
+
+@media screen and (max-width: 1200px) {
+    .Elagage {
+        width: 100%;
+        margin-left: 0%;
+        padding: 10px;
+    }
+    .ImageWrapper {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .ImageBefore1,
+    .ImageAfter1 {
+        width: 100%;
+        margin-top: 25px;
+    }
+}
