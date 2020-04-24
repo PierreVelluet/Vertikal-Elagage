@@ -32,41 +32,18 @@ table tr td {
 }
 
 .Media {
-    margin-top: 30px;
     display: flex;
     justify-content: space-around;
 }
 
-.Facebook {
-    
-    width: 50px;
-    height: 50px;
-    background-image: url('http://assets.stickpng.com/thumbs/584ac2d03ac3a570f94a666d.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
+.ContainerContentSocialLinksImg:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
-.Twitter {
-    width: 50px;
-    height: 50px;
-    background-image: url('https://p7.hiclipart.com/preview/431/377/161/5bbc4eb96e85d.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-    border-radius: 50%;
-}
-
-.Instagram {
-    width: 50px;
-    height: 50px;
-    background-image: url('https://toppng.com/uploads/preview/instagram-color-icon-instagram-social-media-png-instagram-icon-11562851673w81euu4rop.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-    border-radius: 50%;
-}
 
 @media screen and (max-width: 1200px) {
 

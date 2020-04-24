@@ -6,12 +6,24 @@ const InShort = () => {
         <div className='InShort'>
             <div className='SomeText'>
                 <h3>Verti'kal en bref</h3>
-                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse "</p>
+                <p>
+                    <strong>Verti’Kal Élagage</strong> est une entreprise spécialisée dans la taille, l’élagage et les soins aux arbres en milieu urbain et forestier.
+                    Créée en 2017, Verti’Kal Élagage est une entreprise spécialisée dans la taille et le soin aux arbres d’ornement. Basée à Piton Saint Leu, elle intervient auprès de particuliers, d’entreprises et de collectivités sur la côte Ouest de l’Île de la Réunion. Nous pratiquons la « taille raisonnée » qui s’opère dans le respect de l’arbre, de sa nature et de son développement afin d’en préserver la beauté et d’assurer sa pérennité.
+                    Nous intervenons de La Possession jusqu’au Tampon / Saint Joseph, toute demande hors secteur est néanmoins réalisable.
+                </p>
+                <p>
+                    Le métier d’ <strong>arboriste grimpeur</strong> consiste à entretenir le patrimoine arboré, de permettre la cohabition de l’ arbre et de l’ homme. Par le biais de connaissances biologiques et physiologiques notre profession contribue de pérenniser l ‘arbre dans notre cadre de vie.
+                    Nous nous occupons à la fois de l’entretien des arbres d’ornements, des arbres fruitiers ainsi que des palmiers.
+                </p>
+                <p className='TextToHide'>
+                    L’ <strong>arbre est un être vivant qui doit faire l’ objet d’ une attention particulière</strong>. De mauvaises pratiques ou une taille mal effectuée peut avoir des incidences irréversibles, sur la santé de
+                    l’ arbre, sa tenue mécanique et aussi sur les éléments présents autour de celui ci.
+                    L’ arbre fait part de notre environnement, aussi bien esthétiquement  qu’ écologiquement, nous devons veiller sur lui.
+                    En plus des opérations effectuées sur les arbres et palmiers, nous sommes en mesure de nous occuper de la remise en état des jardins laissés en friches et de la mise en place de solutions d’arrosage intégrés."
+                </p>
+            
             </div>
-            <div className='ImageInShort'>
-                <img className='Photo' alt='' src='https://www.kolimteam.com/wa_p_albums/p_album_il7s0tbs0/itzrmr3t1dozzzxej4/thumb/img_5209.jpg' />
-            </div>
+            <div className='ImageInShort'></div>
         </div>
     )
 }

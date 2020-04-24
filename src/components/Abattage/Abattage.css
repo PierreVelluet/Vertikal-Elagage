@@ -3,7 +3,7 @@
     display: block;
     margin-left: 10%;
     padding: 25px;
-    font-size: 25px;;
+    font-size: 25px;
 }
 
 .ImageWrapper2 {
@@ -28,11 +28,6 @@
     height: 350px;
 }
 
-.ImageAbattage4 {
-    width: 450px;
-    height: 350px;
-}
-
 .Image1 {
     height: 100%;
     width: 100%;
@@ -51,9 +46,18 @@
 text-align: center;
 }
 
+.Sécurité {
+    width: 60%;
+    display: block;
+    margin-left: 10%;
+    padding: 25px;
+    font-size: 25px;
+}
+
 
 @media screen and (max-width: 1200px) {
-    .Abattage {
+    .Abattage,
+    .Sécurité {
         width: 100%;
         margin-left: 0%;
         padding: 10px;

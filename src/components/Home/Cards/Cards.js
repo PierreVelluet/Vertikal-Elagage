@@ -3,6 +3,8 @@ import './Cards.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card } from 'react-bootstrap';
 import {CardDeck} from 'react-bootstrap';
+import Elagage from '../../../photos/Elagage.png'
+import Taille from '../../../photos/Taille.jpg'
   
 const Cards = () => {
     return(
@@ -11,7 +13,7 @@ const Cards = () => {
             <h3>Découvrez nos activités sur l'île</h3>
                 <CardDeck className='CardDeck'>
                     <Card className='CardTemplate'>
-                        <Card.Img variant="top" src="https://www.actuailes.fr/kcfinder/upload/images/Itw95-2.JPG" />
+                        <Card.Img variant="top" src={Elagage} />
                         <Card.Body>
                         <Card.Title>Elagage</Card.Title>
                         <Card.Text>
@@ -20,7 +22,7 @@ const Cards = () => {
                         </Card.Body>
                     </Card>
                     <Card className='CardTemplate'>
-                        <Card.Img variant="top" src="https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2019/02/22/node_541721/40109000/public/2019/02/22/B9718671070Z.1_20190222202804_000%2BGH2D1KCFJ.1-0.jpg?itok=SCg46XxO1550917832" />
+                        <Card.Img variant="top" src={Taille} />
                         <Card.Body>
                         <Card.Title>Taille</Card.Title>
                         <Card.Text>

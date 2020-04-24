@@ -7,20 +7,15 @@
 }
 
 .ImageWrapper {
-    display: flex;
-    width: 80%;
+    width: 100%;
     margin: 50px auto;
 }
 
-.ImageBefore1 {
-    width: 450px;
-    height: 350px;
 
-}
 
 .ImageAfter1 {
-    width: 450px;
-    height: 350px;
+    width: 550px;
+    height: 450px;
 }
 
 .Image1 {
@@ -34,8 +29,7 @@
     width: 100%;
 }
 
-.ImageBefore1 p,
-.ImageAfter1 p {
+.ImageBeforeAfter p{
 text-align: center;
 }
 
@@ -50,8 +44,7 @@ text-align: center;
         width: 100%;
         margin: 0 auto;
     }
-    .ImageBefore1,
-    .ImageAfter1 {
+    .ImageBeforeAfter{
         width: 100%;
         margin-top: 25px;
     }

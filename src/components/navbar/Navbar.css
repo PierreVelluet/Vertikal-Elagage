@@ -40,25 +40,7 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width: 992px) {
-    .navItems {
-        display: none;
-    }
-    .Navbar {
-        flex-direction: row-reverse;
-    }
-   
-}
 
-@media screen and (min-width: 993px) {
-    .BurgerMenu {
-        display: none;
-    }
-    .bm-burger-button {
-        display: none;
-    }
-    
-}
 
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -122,9 +104,30 @@
   /* Individual item */
   .bm-item {
     display: inline-block;
+    padding: 10px;
   }
    
   /* Styling of overlay */
   .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
   }
+
+  @media screen and (max-width: 450px) {
+    .navItems {
+      display: none;
+    }
+    .bm-burger-button {
+      left: 85%;
+    }
+   
+}
+
+@media screen and (min-width: 451px) and (max-width: 1000px) {
+    .navItems {
+      display: none;
+    }
+    .bm-burger-button {
+      left: 92%;
+    }
+    
+}

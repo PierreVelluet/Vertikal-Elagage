@@ -20,7 +20,22 @@ const useStyles = makeStyles((theme) => ({
     width: '500px',
     height: '450px',
     display: 'block',
-    margin: '250px auto',  
+    margin: '250px auto',
+    [theme.breakpoints.down('sm')]: {
+      width: '95%',
+      height: '430px',
+      padding: '5px',
+      margin: '185px auto'
+  },
+  
+  },
+  StarRating: {
+    width: '71%',
+    margin: '25px auto',
+    [theme.breakpoints.down('sm')]: {
+      width: '95%',
+      margin: '20px auto'
+    },
   }
 }));
 
@@ -63,7 +78,7 @@ export default function SimpleModal() {
   const body1 = (
     <div  className={[classes.paper, classes.Body1].join(' ')}>
       <h2 className='CommentTitle' id="simple-modal-title">Laissez nous votre avis</h2>
-      <div style={{width: '71%', margin: '15px auto'}}>
+      <div className={classes.StarRating}>
       <StarRatings
           rating={message.stars}
           starRatedColor="#FFD700"
