@@ -65,4 +65,20 @@ body {
         display: none;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .InShort {
+        flex-direction: column;
+    }
+    .SomeText {
+        width:100%;
+    }
+    .ImageInShort {
+        width: 100%;
+        height: 600px;
+    }
+    .TextToHide {
+         display: none;
+     }
+ }
     

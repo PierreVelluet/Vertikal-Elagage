@@ -16,19 +16,18 @@ const GoldenBook = () => {
     }, []);
 
     return (
-        
-        <div className='CommentBox'>
-            {comments.map((element, index) => {
-            return  <div key={index} className='Comment'>
-                        <div className='StarBox'>
-                            {[...Array(element.stars)].map((e, i) => <Star key={i}/>)}
+            <div className='CommentBox'>
+                {comments.map((element, index) => {
+                return  <div key={index} className='Comment'>
+                            <div className='StarBox'>
+                                {[...Array(element.stars)].map((e, i) => <Star key={i}/>)}
+                            </div>
+                            <p className='Text'>"{element.message}"</p>
+                            <p className='Name'>{element.name}</p>
                         </div>
-                        <p className='Text'>"{element.message}"</p>
-                        <p className='Name'>{element.name}</p>
-                    </div>
-            })}
-            
-        </div>
+                })}
+                
+            </div>
     )
 }
 

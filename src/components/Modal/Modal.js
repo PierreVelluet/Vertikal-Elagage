@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'block',
     margin: '250px auto',
     [theme.breakpoints.down('sm')]: {
-      width: '95%',
+      width: '350px',
       height: '430px',
       padding: '5px',
       margin: '185px auto'
