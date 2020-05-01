@@ -12,7 +12,7 @@
     font-weight: 400;
     text-shadow: black 1px 0 10px;
     font-family: 'Roboto', sans-serif;
-    z-index: 9999;
+    z-index: 999;
 
 }
 
@@ -20,7 +20,8 @@
     color: white;
 }
 .Navbar a:hover{
-    color: grey;
+    color: white;
+    text-decoration: none;
 }
 .Navbar a:active{
     color: darkgrey;
@@ -34,10 +35,15 @@
 .navItems {
     padding: 23px;
 }
+.ContactItem {
+  background-color: darkgreen;
+  border: 1px solid black;
+}
 
 .navItems:hover {
     cursor: pointer;
-    text-decoration: underline;
+    background-color: darkgreen;
+    border: 1px solid black;
 }
 
 
@@ -51,6 +57,8 @@
     top: 26px;
     /* left: 36px;
     top: 36px; */
+    z-index: 1000;
+    display: none;
   }
    
   /* Color/shape of burger icon bars */
@@ -118,6 +126,7 @@
     }
     .bm-burger-button {
       left: 85%;
+      display: block;
     }
    
 }
@@ -128,6 +137,7 @@
     }
     .bm-burger-button {
       left: 92%;
+      display: block;
     }
     
 }

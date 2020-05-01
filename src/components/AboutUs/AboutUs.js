@@ -1,5 +1,6 @@
 import React from 'react';
 import './AboutUs.css'
+import Contact from '../Contact/Contact';
 
 const AboutUs = () => {
 
@@ -56,6 +57,7 @@ const AboutUs = () => {
             <div className='Photo3'></div>
         </div>
         <hr/>
+        <Contact/>
         </React.Fragment>
     )
 };

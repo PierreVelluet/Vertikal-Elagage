@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
   },
   Body1: {
     width: '500px',
-    height: '450px',
+    height: '465px',
     display: 'block',
     margin: '250px auto',
     [theme.breakpoints.down('sm')]: {
@@ -36,6 +36,12 @@ const useStyles = makeStyles((theme) => ({
       width: '95%',
       margin: '20px auto'
     },
+  },
+  Button: {
+    backgroundColor: '#559857',
+    '&:hover': {
+      background: "#006400",
+    }
   }
 }));
 
@@ -119,7 +125,7 @@ export default function SimpleModal() {
           variant="outlined"
           value={message.comment}
         />
-        <Button onClick={sendComment} variant="contained" color="primary">Envoyer</Button>
+        <Button className={classes.Button} onClick={sendComment} variant="contained" color="default">Envoyer</Button>
     </div>
   );
 
@@ -127,7 +133,7 @@ export default function SimpleModal() {
     <div style={{width: '500px', height: '150px', display: 'block', margin: '350px auto 0 auto', textAlign: 'center'}} className={classes.paper}>
       <p>Votre message à bien était pris en compte !</p>
       <div className='BtnClose'>
-        <Button onClick={handleClose} variant="contained" color="primary">Fermer</Button>
+        <Button  onClick={handleClose} variant="contained" color="primary">Fermer</Button>
       </div>
     </div>
   )
@@ -135,7 +141,7 @@ export default function SimpleModal() {
   return (
     <div>
         <div style={{margin: '0 auto', width: '200px'}}>
-            <Button onClick={handleOpen} variant="contained" color="primary">Poster un commentaire</Button>
+            <Button onClick={handleOpen} className={classes.Button} variant="contained" color="default">Poster un commentaire</Button>
         </div>
       <Modal
         open={open}

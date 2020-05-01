@@ -3,6 +3,7 @@ import './Abattage.css'
 import royal1 from '../../photos/royal1.png'
 import royal2 from '../../photos/royal2.png'
 import royal3 from '../../photos/royal3.png'
+import Contact from '../Contact/Contact';
 
 const Abattage = () => {
     return (
@@ -57,6 +58,7 @@ const Abattage = () => {
                 </div>
                 
                 <hr/>
+                <Contact />
         </React.Fragment>
     )
 }

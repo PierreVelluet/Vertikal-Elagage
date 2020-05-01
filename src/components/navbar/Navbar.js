@@ -46,7 +46,7 @@ const Navbar = () => {
                     <div className='navItems'><Link smooth to='/abattage'>Abattage</Link></div>
                     <div className='navItems'><Link smooth to='/paysagisme'>Paysagisme</Link></div>
                     <div className='navItems'><Link smooth to='/gallery'>Galerie</Link></div>
-                    <div className='navItems'><Link smooth to='/contact'>Contact</Link></div>
+                    <div className={['navItems', 'ContactItem'].join(' ')}><Link smooth to='/contact'>Contact</Link></div>
                 </div>
             </nav>
         )

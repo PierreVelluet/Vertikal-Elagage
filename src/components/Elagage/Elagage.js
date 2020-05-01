@@ -1,6 +1,7 @@
 import React from 'react';
 import './Elagage.css'
 import beforeAfter from '../../photos/BeforeAfter.png'
+import Contact from '../Contact/Contact';
 
 const Elagage = () => {
     return (
@@ -53,6 +54,7 @@ const Elagage = () => {
             </div>
             
             <hr/>
+            <Contact />
         </React.Fragment>
     )
 }

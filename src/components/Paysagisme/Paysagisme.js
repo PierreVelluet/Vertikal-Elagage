@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Paysagisme.module.css'
+import Contact from '../Contact/Contact';
 
 const Paysagisme = () => {
     return (
@@ -49,6 +50,7 @@ const Paysagisme = () => {
                 </div>
             </div>
             <hr/>
+            <Contact/>
         </React.Fragment>
     )
 }
