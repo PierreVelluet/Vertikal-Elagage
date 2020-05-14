@@ -10,7 +10,7 @@ const GoldenBook = () => {
     const [comments, setComments] = useState([])
 
     useEffect(()=>{
-        axios.get('http://localhost:3002/api/comments').then(result => {
+        axios.get('https://vertikalbackend.herokuapp.com/api/comments').then(result => {
         setComments(result.data)
         })
     }, []);
