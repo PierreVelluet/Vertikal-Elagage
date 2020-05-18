@@ -26,7 +26,7 @@ const Contact = () => {
 
     axios({
       method: "POST", 
-      url:"http://localhost:3002/send", 
+      url:"https://vertikalbackend.herokuapp.com/send", 
       data:  formContact
     }).then((response)=>{
       if (response.data.status === 'success'){
